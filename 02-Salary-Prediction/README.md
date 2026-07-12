@@ -123,12 +123,12 @@ Through this project I learned:
 * Understanding regression coefficients and the intercept.
 * Making predictions for unseen data.
 * Organizing a Machine Learning project using a clean GitHub structure.
-
+* Evaluate model performance using metrics such as **R² Score**, **Mean Squared Error (MSE)**, and **Mean Absolute Error (MAE)**.
+  
 ---
 
 ## Future Improvements
 
-* Evaluate model performance using metrics such as **R² Score**, **Mean Squared Error (MSE)**, and **Mean Absolute Error (MAE)**.
 * Train the model on a larger real-world salary dataset.
 * Explore additional features such as education level, job role, location, and technical skills.
 * Compare Multiple Linear Regression with other regression algorithms.
