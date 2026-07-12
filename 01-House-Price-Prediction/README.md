@@ -52,6 +52,27 @@ The notebook demonstrates:
 * Interpreting model coefficients.
 * Comparing manual calculations with model predictions.
 
+## Model Evaluation
+
+The model was evaluated using a train-test split to demonstrate the model evaluation workflow.
+
+| Metric                             |                Value |
+| ---------------------------------- | -------------------: |
+| **R² Score**                       |            **-0.09** |
+| **Mean Absolute Error (MAE)**      |    **61,003.75 USD** |
+| **Mean Squared Error (MSE)**       | **7,570,217,633.65** |
+| **Root Mean Squared Error (RMSE)** |    **87,007.00 USD** |
+
+The evaluation metrics indicate that the model did not generalize well on the test set for this particular train-test split. This is expected because the dataset contains only **five samples** while the model is trained using **three input features** (area, number of bedrooms, and house age). With such a limited dataset, the evaluation metrics are highly sensitive to the train-test split and should be interpreted as a demonstration of the evaluation process rather than a measure of real-world model performance.
+
+Despite the limited dataset, this project successfully demonstrates key concepts of Multiple Linear Regression, including:
+
+* Data preprocessing and handling missing values using median imputation.
+* Training a Multiple Linear Regression model with multiple input features.
+* Understanding regression coefficients and the intercept.
+* Making predictions for unseen inputs.
+* Evaluating model performance using common regression metrics such as R² Score, MAE, MSE, and RMSE.
+
 
 ## Technologies Used
 
