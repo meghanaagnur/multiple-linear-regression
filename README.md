@@ -14,9 +14,11 @@ The model learns the relationship between multiple input features and a target v
 
 ##  Projects
 
-| Project                    | Description                                                         | Status      |
-| -------------------------- | ------------------------------------------------------------------- | ----------- |
-| 01. House Price Prediction | Predict house prices using area, number of bedrooms, and house age. | ✅ Completed |
+| Project                | Concepts                                   | Status |
+| ---------------------- | ------------------------------------------ | ------ |
+| House Price Prediction | Multiple Linear Regression, Missing Values | ✅     |
+| Salary Prediction      | Multiple Linear Regression, `word2number`  | ✅     |
+
 
 More projects will be added as I continue learning.
 
@@ -53,11 +55,5 @@ multiple-linear-regression/
 * Organize machine learning projects following professional GitHub practices.
 
 ---
-
-| Project                | Dataset        | Concepts Practiced                                        | Status |
-| ---------------------- | -------------- | --------------------------------------------------------- | ------ |
-| House Price Prediction | Home Prices    | Multiple Linear Regression, Missing Values                | ✅      |
-| Salary Prediction      | Hiring Dataset | Multiple Linear Regression, `word2number`, Missing Values | ✅      |
-
 
 This repository is part of my Machine Learning learning journey. Additional projects will be added as I explore more real-world applications of Multiple Linear Regression.
