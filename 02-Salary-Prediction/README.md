@@ -56,6 +56,20 @@ The notebook demonstrates:
 
 ---
 
+## Model Evaluation
+
+The model was evaluated using a train-test split after preprocessing the dataset (handling missing values and converting textual numerical values using the **word2number** library).
+
+| Metric                             |             Value |
+| ---------------------------------- | ----------------: |
+| **R² Score**                       |        **0.5932** |
+| **Mean Absolute Error (MAE)**      |  **7,838.98 USD** |
+| **Mean Squared Error (MSE)**       | **73,918,701.52** |
+| **Root Mean Squared Error (RMSE)** |  **8,597.60 USD** |
+
+The model achieved an **R² Score of 0.5932**, indicating that it explains approximately **59.32% of the variation** in salary based on the candidate's experience, test score, and interview score. Due to the small size of the dataset, the evaluation metrics are sensitive to the train-test split and should be interpreted as part of a learning exercise rather than a definitive measure of real-world model performance.
+
+
 ## Technologies Used
 
 * Python
