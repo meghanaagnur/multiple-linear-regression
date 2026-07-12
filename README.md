@@ -54,4 +54,10 @@ multiple-linear-regression/
 
 ---
 
+| Project                | Dataset        | Concepts Practiced                                        | Status |
+| ---------------------- | -------------- | --------------------------------------------------------- | ------ |
+| House Price Prediction | Home Prices    | Multiple Linear Regression, Missing Values                | ✅      |
+| Salary Prediction      | Hiring Dataset | Multiple Linear Regression, `word2number`, Missing Values | ✅      |
+
+
 This repository is part of my Machine Learning learning journey. Additional projects will be added as I explore more real-world applications of Multiple Linear Regression.
