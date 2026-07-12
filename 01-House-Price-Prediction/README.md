@@ -132,12 +132,12 @@ Through this project I learned:
 * Understanding regression coefficients and intercept.
 * Predicting values using both the model and the regression equation.
 * Organizing a Machine Learning project following GitHub best practices.
+* Evaluate the model using performance metrics such as **R² Score** and **Mean Squared Error (MSE)**.
 
 ---
 
 ## Future Improvements
 
-* Evaluate the model using performance metrics such as **R² Score** and **Mean Squared Error (MSE)**.
 * Train and test the model on a larger real-world housing dataset.
 * Experiment with additional features such as location, number of bathrooms, parking spaces, and nearby amenities.
 * Compare Multiple Linear Regression with other regression algorithms to analyze prediction performance.
